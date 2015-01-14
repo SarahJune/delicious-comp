@@ -1,0 +1,112 @@
+<style type="text/css">
+
+body {
+
+}
+
+body {
+  width: 90&;
+  margin: 5% 10% 5% 10%;
+}
+
+h1 {
+  color: #181818;
+  font-size: 35px;
+  font-family: Verdana;
+  padding-top: 35px;
+}
+
+article img {
+  width: 100%;
+  height: 500px;
+  margin: 20px 0 20px 0;
+}
+
+h3 {
+  color: #b0b3b6;
+  font-style: uppercase;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+p {
+  color: #757b80;
+  font-size: 15px;
+  line-height: 18px;
+  text-indent: 18px;
+  padding-bottom: 15px;
+}
+
+.ingredients {
+  padding: 20px;
+  background-color: #e8f0a9;
+  background-size: 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-color: black;
+  border-style: solid;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.author {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+h2.author {
+  font: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  float: left;
+  width: 40%;
+}
+
+p.author {
+  float: left;
+}
+
+img.author {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0px 10px 0px 10px;
+}
+
+.social {
+  float: right;
+}
+
+nav {
+  border-bottom: 5px;
+  border-color: black;
+}
+
+.share-recipe {
+  background-color: red;
+  padding: 10px;
+  font-size: 15px;
+  float: right;
+}
+
+footer {
+  font-size: 10px;
+  color: #b0b3b6;
+  text-align: center;
+}
+
+footer hr {
+  height: 1px;
+  color: gray;
+}
+
+hr {
+  height: 5px;
+  color: gray;
+  background-color: gray;
+}
+
+</style>
