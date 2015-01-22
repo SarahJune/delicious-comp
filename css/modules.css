@@ -1,0 +1,6 @@
+.line {
+  margin-top: 25px;
+  background-image: url(../images/line.png);
+  background-repeat: repeat-x;
+  background-size: 25px
+}

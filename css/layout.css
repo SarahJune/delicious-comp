@@ -1,0 +1,20 @@
+body {
+  width: 90%;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #b0b3b6;
+  text-align: center;
+  line-height: 16px;
+  padding: 0px;
+}
+
+  footer {
+    height: 1px;
+    color: gray;
+    border-top: 1px solid;
+    border-color: #969696;
+    padding: 40px 0px;
+  }
