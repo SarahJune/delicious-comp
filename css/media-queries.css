@@ -1,0 +1,78 @@
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+  width: 100%;
+  }
+
+  .main-logo {
+    width: 20%;
+  }
+
+  .title {
+    width: 70%;
+    margin: 5% 5% 0% 5%;
+  }
+
+  .ingredients {
+    background-image: none;
+  }
+
+  .author img {
+    display: none;
+  }
+
+  .share-recipe {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .social{
+    width: 100%;
+  }
+
+  .social a:nth-child(1) {
+    margin-left: 0%; /* 8px */
+  }
+
+  .social a:nth-child(6) {
+    margin-right: 0%; /* 8px */
+  }
+
+  .line {
+    background-size: 0%; /* 25px */
+  }
+
+  h2 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+
+  h3 {
+    font-size: .9em;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 1.3em;
+    margin-top: 5%;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  p {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  body {
+    margin-top: 0%;
+  }
+
+  footer {
+    border-top: none;
+  }
+}

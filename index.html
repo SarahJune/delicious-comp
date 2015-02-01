@@ -1,30 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="eng">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Delicious</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/modules.css">
+        <link rel="stylesheet" href="css/media-queries.css">
         <script src="#"></script>
     </head>
-    <body class="container_16">
+    <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
         <header class="clearfix">
-          <nav>
-            <a href="/"><img src="images/logo.png" alt="logo" class="grid_1">
-            <a class="grid_5">
-              <h1>Delicious</h1>
-              <h3>THE BEST FOOD BLOG ON THE WEB</h3>
-            </a></a>
-            <section class="social grid_6 push_6">
+          <div class="span_1_of_12 main-logo">
+            <a href="#"><img src="images/logo.png" alt="logo" class="span_8_of_12"></a>
+          </div>
+          <div class="span_8_of_12 title">
+            <h1>Delicious</h1>
+            <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+          </div>
+            <section class="social span_3_of_12">
               <a href="https://www.facebook.com/delicious" target="_blank"><img src="images/fb-icon.png" alt="Facebook"></a>
               <a href="https://twitter.com/delicious" target="_blank"><img src="images/twit-icon.png" alt="Twitter"></a>
               <a href="https://plus.google.com/delicious" target="_blank"><img src="images/gp-icon.png" alt="Google-Plus"></a>
@@ -34,18 +36,17 @@
               <a href="/blog" target="_blank"><img src="images/rss-icon.png" alt="RSS"></a>
               <a href="/contact" target="_blank"><img src="images/mail-icon.png" alt="Contact"></a>
             </section>
-          </nav>
         </header>
         <main>
-          <article class="line grid_16">
+          <article class="line span_12_of_12">
             <h2>Chocolate Pizza</h2>
             <h3>POSTED ON 15 DEC 2013 / DESSERTS</h3>
-            <img src="images/choco-pizza.png" alt="Chocolate Pizza">
+            <img src="images/choco-pizza.png" alt="Chocolate Pizza" class="span_12_of_12">
             <p>VHS Kickstarter twee hashtag squid letterpress Truffaut, salvia messenger bag keffiyeh sustainable street art banjo  Four dollar toast tousled yr, Tumblr heirloom retro PBR mlkshk bitters.VHS Kickstarter twee hashtag squid letterpress Truffaut, salvia messenger bag keffiyeh sustainable street art banjo  Four dollar toast tousled yr, Tumblr heirloom retro PBR mlkshk bitters.</p>
             <p>Stumptown cronut Helvetica paleo DIY. Tumblr normcore synth flannel sustainable.VHS Kickstarter twee hashtag squid letterpress Truffaut, salvia messenger bag keffiyeh sustainable street art banjo  Four dollar toast tousled yr, Tumblr heirloom retro PBR mlkshk bitters.</p>
             <p>Lumbersexual lomo blog listicle.  Carles Brooklyn taxidermy sriracha kale chips, migas iPhone deep v listicle twee Vice chambray YOLO salvia leggings. VHS pop-up typewriter tousled mlkshk, farm-to-table Echo Park.VHS Kickstarter twee hashtag squid letterpress Truffaut, salvia messenger bag keffiyeh sustainable street art banjo  Four dollar toast tousled yr, Tumblr heirloom retro PBR mlkshk bitters.</p>
-            <section class="ingredients clearfix">
-              <ul class="list-a grid_4 push_2">
+            <section class="ingredients clearfix span_12_of_12">
+              <ul>
                 <li><input type=checkbox>1 1/2 cups milk</li>
                 <li><input type=checkbox>1/2 cup cascarpone</li>
                 <li><input type=checkbox>1/2 tsp pink salt</li>
@@ -53,7 +54,7 @@
                 <li><input type=checkbox>1/2 cup brown sugar</li>
                 <li><input type=checkbox>2-4 tbsp water</li>
               </ul>
-              <ul class="list-b grid_6 push_5">
+              <ul>
                 <li><input type=checkbox>1 1/2 cups heavy cream</li>
                 <li><input type=checkbox>1/3 granulated sugar</li>
                 <li><input type=checkbox>2 egg yolks</li>
@@ -62,15 +63,15 @@
                 <li><input type=checkbox>1 cup honey roasted pecans, roughly chopped</li>
               </ul>
             </section>
-            <section class="line author grid_16">
-              <img src="images/van-pic.png" alt="Vanessa Stevenson" class="grid_2">
+            <section class="line author">
+              <img src="images/van-pic.png" alt="Vanessa Stevenson" class="span_2_of_12">
               <a class="share-recipe" href="www.shareurl.com" target="popup">SHARE RECIPE</a>
-              <h4>Vanessa Stevenson</h4>
-              <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+              <h4 class="span_4_of_12">Vanessa Stevenson</h4>
+              <p class="span_6_of_12">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
             </section>
           </article>
         </main>
-        <footer class="grid_16">
+        <footer class="span_12_of_12">
           <p>Delicious &copy; 2013 - All Rights Reserved.</p>
           <p>Proudly published with Ghost.</p>
         </footer>

@@ -1,0 +1,137 @@
+/* GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Rajdhani:300|Patrick+Hand|Yellowtail|Playfair+Display|Oswald:700,300);
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* PAGE SETTINGS */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+h1 {
+  color: #181818;
+  font-size: 2.25em; /* 36px / 16px */
+  font-family: 'Yellowtail';
+}
+
+h2 {
+  color: #181818;
+  font-size: 3em; /* 48px / 16px */
+  font-family: 'Oswald';
+  font-weight: 700;
+  padding-top: 2em; /* 50px */
+  margin-bottom: .5em; /* 8px */
+}
+
+h3 {
+  color: #3a3a3a;
+  font-style: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  font-size: .9em; /* 14px */
+}
+
+h4 {
+  color: #545454;
+  font-size: 1.5em; /* 22px */
+  font-weight: bold;
+  padding: 2% 1% 1% 1%; /* 20px 5px 5px 5px */
+}
+
+article img {
+  max-width: 100%;
+  margin: 3% 0%; /* 30px 0 */
+}
+
+p {
+  color: #757b80;
+  font-size: 1.2em; /* 18px */
+  line-height: 1.5em; /* 24px */
+  text-indent: 1.2em; /* 18px */
+  padding-bottom: 5%; /* 25px */
+  font-weight: lighter;
+}
+
+input[type="checkbox"] {
+  margin-right: 8%; /* 20px */
+}
+
+div {
+  float: left;
+}
+
+section {
+  float: left;
+}
+
+ul {
+  float: left;
+  padding-left: 10%;
+  margin-top: 0%;
+  width: 35%;
+  line-height: 1.64em;
+}
+
+/* CLEARFIX */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

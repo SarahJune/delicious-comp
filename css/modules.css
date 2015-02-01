@@ -1,6 +1,73 @@
 .line {
-  margin-top: 25px;
+  margin-top: 3%; /* 25px */
   background-image: url(../images/line.png);
   background-repeat: repeat-x;
-  background-size: 25px
+  background-size: 3%; /* 25px */
 }
+
+
+.ingredients {
+  background-image: url(../images/list-bg.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-family: 'Patrick Hand';
+  font-size: 1.3em; /* 22px */
+  line-height: 1.55em;/* 32px */
+  color: gray;
+  padding: 4.5% 0%; /* 36px 0px 50px 0px; */
+  backgr
+}
+
+.author {
+  padding: 5% 0%; /* 50px 0px */
+}
+
+.author h4 {
+  float: left;
+  padding: 2% 0%;
+}
+
+.author p {
+  text-indent: 0%;
+  padding: 0%;
+  float: left;
+}
+
+.author img {
+  margin: 1% 4% 2% 0%; /* 10px 20px 10px 0px */
+  max-width: 100%;
+  float: left;
+}
+
+.share-recipe {
+  background-color: #c15946;
+  padding: 2% 5%; /* 15px 35px */
+  font-size: 1.2em; /* 18px */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Rajdhani';
+  float: right;
+  margin: 2% 0% 0% 4%; /* 25px 0px 25px 10px */
+}
+
+.social {
+  float: right;
+}
+
+.social a:nth-child(1) {
+  margin-left: 6%; /* 8px */
+}
+
+.social a:nth-child(6) {
+  margin-right: 5%; /* 8px */
+}
+
+.main-logo {
+  margin-right: -2%;
+}
+
+.title {
+  margin: .5% 0% 0% 0%;
+}
+
